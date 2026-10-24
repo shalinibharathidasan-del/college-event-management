@@ -1,0 +1,20 @@
+body {
+  background-color: #f4f6fb;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1e3a8a, #6d28d9);
+}
+
+.navbar .nav-link.active {
+  font-weight: 600;
+}
+
+.event-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
